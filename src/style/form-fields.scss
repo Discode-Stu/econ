@@ -1,16 +1,13 @@
 .form-input {
-
     display: grid;
     grid-gap: 6.5px;
 
     & > * {
         padding-left: 20px;
-
     }
 
     &__label {
         font-size: 14px;
-
     }
 
     &__input {
@@ -21,9 +18,7 @@
         border-radius: 20px;
         color: #333;
         font-size: 18px;
-
     }
-
 }
 
 .form-button {
@@ -44,7 +39,5 @@
     &__gray-button {
         background: #999;
         width: 137px;
-
     }
-
 }
