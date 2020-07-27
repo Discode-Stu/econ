@@ -19,16 +19,23 @@ body {
 
 @import 'layout';
 @import 'headernavbar';
-@import 'auth/signin';
-@import 'auth/signup';
-
 @import 'page-title';
 @import 'form-fields';
 @import 'details';
 
+//auth
+@import 'auth/signin';
+@import 'auth/signup';
+
+
+
+//account
 @import 'account/account';
 @import 'account/purchase-history';
 @import 'account/account-information';
+
+//shop
+@import 'shop/shop';
 
 
 
