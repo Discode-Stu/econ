@@ -11,10 +11,11 @@ class Shop extends Component {
                 _id: 0,
                 title: 'Login',
                 path: '/signin'
-            }
-
+            },
+        
         ]
         this.props.setHeaderLinks(headerLinks);
+        this.props.fetchShopCategories();
         //fetch shop products action creator
         //fetch navbar links
             //set navbar links
