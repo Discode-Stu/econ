@@ -10,7 +10,8 @@ import  {
 } from './user';
 
 import {
-    fetchShopCategories
+    fetchShopCategories,
+    fetchShopProducts
 } from './shop';
 
 export {
@@ -21,7 +22,8 @@ export {
     fetchUserPurchases,
     setPurchaseDetail,
 
-    fetchShopCategories
+    fetchShopCategories,
+    fetchShopProducts
 };
 
 
