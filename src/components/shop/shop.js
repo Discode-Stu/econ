@@ -12,7 +12,6 @@ class Shop extends Component {
                 title: 'Login',
                 path: '/signin'
             }
-
         ]
         this.props.setHeaderLinks(headerLinks);
         this.props.fetchShopCategories();
@@ -25,15 +24,29 @@ class Shop extends Component {
         if(this.props != nextProps) {
             this.props.setNavbarLinks(nextProps.categories, (_id) => this.props.filterProductsWithCategoryId(_id));
         }
-        return true;
-
+        return true
     }
  
     render() {
         return (
             <div className='shop'>
                 {/* shop searchbar */}
-                {/* shop product */}
+                <div className='shop__products'>
+                    {
+                        this.props.filteredProducts.map(product => {
+                            return (
+                                <div key={product._id} className='shop-product'>                      
+                                    <div className='shop-product__title'>
+                                        {product.title}
+                                    </div>
+                                    <div className='shop-product__description'>
+                                        {product.description}  
+                                    </div>
+                                </div>
+                            )
+                        })
+                    }
+                </div>
                 {/* shop cart button */}
             </div>
         )
@@ -42,9 +55,10 @@ class Shop extends Component {
 }
 
 function mapStateToProps(state) {
-    const {categories} = state.shop;
+    const { categories, filteredProducts } = state.shop;
     return {
-        categories
+        categories,
+        filteredProducts
     }
 }
 
