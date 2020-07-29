@@ -19,9 +19,7 @@ body {
 
 @import 'layout';
 @import 'headernavbar';
-@import 'page-title';
-@import 'form-fields';
-@import 'details';
+
 
 //auth
 @import 'auth/signin';
@@ -36,6 +34,7 @@ body {
 
 //shop
 @import 'shop/shop';
+@import 'shop/shop-search-bar';
 
 
 
