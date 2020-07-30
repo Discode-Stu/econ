@@ -4,6 +4,7 @@ import { connect } from 'react-redux';
 import * as actions from '../../actions'
 import ShopSearchBar from './shopSearchBar';
 import ShopProduct from './shopProduct';
+import ShopCart from './shopCart';
 
 class Shop extends Component {
 
@@ -34,7 +35,13 @@ class Shop extends Component {
     }
 
     render() {
+
+        return <ShopCart className='shop-cart'/>;
+        
         return (
+
+            
+
             <div className='shop'>
                 <ShopSearchBar onSubmit={this.onSubmit} className='shop__search-bar'/>
                 <div className='shop__products'>

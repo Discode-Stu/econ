@@ -26,12 +26,15 @@
     &__front,
     &__back {
         backface-visibility: hidden;
-        transition: all 1.3s ease;
+        transition: all .3s ease;
     }
 
     &__back {
         transform: rotateY(-180deg);
     }
+    // &__front {
+    //     box-shadow: 0 2px 20px 0 rgba(0,0,0,0.1);
+    // }
 
     &:hover &__front {
         transform: rotateY(180deg);
