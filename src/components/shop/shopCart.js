@@ -32,10 +32,10 @@ function CartFooter({className, products}) {
             <a className='cart-footer__checkout'>
                 Checkout
             </a>
-            <div className='cart_footer__subtotal'>
+            <div className='cart-footer__subtotal'>
                 Subtotal
             </div>
-            <div className='cart_footer__price'>
+            <div className='cart-footer__price'>
                 ${price}
             </div>
 
