@@ -16,7 +16,7 @@ let productsJSX = products.map(product => <h1 key={product}>{product}</h1>)
             <div className='cart-content__title' >
                 Cart ({count})
             </div>
-            <div className='cart_content__products' >
+            <div className='cart-content__products' >
                 {productsJSX}
             </div>
             <CartFooter className='cart-content__footer' products={products} />
@@ -49,7 +49,7 @@ class ShopCart extends Component {
         return(
             <div className={`${className} shop-cart`}>
                 <CartButton className='shop-cart__toggle' icon='fas fa-times' />
-                <CartContent className='shop-cart__content' products={[4, 343, 566]} />
+                <CartContent className='shop-cart__content' products={[4, 343, 566, 23, 5534, 344, 577, 5675, 443, 23, 2556, 433, 3455, 4453, 333, 4, 5555, 43, 3, 5654 ]} />
             </div>
         )
     }
