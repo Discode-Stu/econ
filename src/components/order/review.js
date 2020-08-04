@@ -13,7 +13,7 @@ class Review extends Component {
         this.props.setNavbarLinks([]);
     }
 
-    onSubmit = (fields) => {
+    onSubmit = () => {
         console.log('fields')
     }
 
