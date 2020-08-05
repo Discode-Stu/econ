@@ -31,7 +31,8 @@ export function fetchCartProducts() {
                     title: "JavaScript in the Browser",
                     description: "The FitnessGram Pacer Test is a multistage aerobic capacity test that progressively gets more difficult ... Dude i just had to do the The Fitness Gram™ Pacer Test and i am sooooo tired. ... The Fitnessgram™ Pacer Test is the worst new meme.",
                     price: 1.99,
-                    belongsTo: [0, 1]
+                    belongsTo: [0, 1],
+                    imageUrl: 'http://via.placeholder.com/80x80'
     
                 },
                 quantity: 2
@@ -44,7 +45,8 @@ export function fetchCartProducts() {
                     title: "Graph Database",
                     description: "The FitnessGram Pacer Test is a multistage aerobic capacity test that progressively gets more difficult ... Dude i just had to do the The Fitness Gram™ Pacer Test and i am sooooo tired. ... The Fitnessgram™ Pacer Test is the worst new meme.",
                     price: 1.99,
-                    belongsTo: [0, 6]
+                    belongsTo: [0, 6],
+                    imageUrl: 'http://via.placeholder.com/80x80'
                 },
                 quantity: 1
 
