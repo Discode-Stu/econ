@@ -7,6 +7,8 @@ import * as actions from '../../actions';
 
 import PaymentForm from './paymentForm';
 
+
+
 class Payment extends Component {
 
     componentDidMount() {
