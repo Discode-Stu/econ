@@ -56,8 +56,14 @@ body {
 
 //review
 @import 'order/review';
-@import 'order/reviewForm.scss';
-@import 'order/reviewProduct.scss';
+@import 'order/reviewForm';
+@import 'order/reviewProduct';
+
+
+//information
+
+@import 'information/payment';
+@import 'information/shipping';
 
 
 
